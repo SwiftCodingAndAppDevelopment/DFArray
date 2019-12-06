@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/smith.10439/Documents/DigitalFlagship/CourseDevelopment/3. AdvanceYourSwiftSkills/InHouseDevelopment/3. Arrays/DFArray/build/Release-iphoneos/DFArray.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/smith.10439/Documents/DigitalFlagship/CourseDevelopment/3. AdvanceYourSwiftSkills/InHouseDevelopment/3. Arrays/DFArray/build/DFArray.build/Release-iphoneos/DFArray.build/unextended-module.modulemap",
+    }]
+  }]
+}

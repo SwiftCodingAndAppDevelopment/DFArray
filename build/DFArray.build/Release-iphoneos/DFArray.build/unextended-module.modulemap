@@ -1,0 +1,10 @@
+framework module DFArray {
+  umbrella header "DFArray.h"
+
+  export *
+  module * { export * }
+}
+
+module DFArray.__Swift {
+    exclude header "DFArray-Swift.h"
+}

@@ -1,0 +1,11 @@
+framework module DFArray {
+  umbrella header "DFArray.h"
+
+  export *
+  module * { export * }
+}
+
+module DFArray.Swift {
+    header "DFArray-Swift.h"
+    requires objc
+}

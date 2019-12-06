@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A74C1D26239AAE8F00BE2026 /* DFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C1D24239AAE8F00BE2026 /* DFArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74C1D2D239AAF1C00BE2026 /* DFArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C1D2C239AAF1C00BE2026 /* DFArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A74C1D21239AAE8E00BE2026 /* DFArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DFArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74C1D24239AAE8F00BE2026 /* DFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFArray.h; sourceTree = "<group>"; };
 		A74C1D25239AAE8F00BE2026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74C1D2C239AAF1C00BE2026 /* DFArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				A74C1D24239AAE8F00BE2026 /* DFArray.h */,
+				A74C1D2C239AAF1C00BE2026 /* DFArray.swift */,
 				A74C1D25239AAE8F00BE2026 /* Info.plist */,
 			);
 			path = DFArray;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					A74C1D20239AAE8E00BE2026 = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74C1D2D239AAF1C00BE2026 /* DFArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		A74C1D2A239AAE8F00BE2026 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 36TX7N82LL;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.osu.digitalflagship.DFArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		A74C1D2B239AAE8F00BE2026 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 36TX7N82LL;
